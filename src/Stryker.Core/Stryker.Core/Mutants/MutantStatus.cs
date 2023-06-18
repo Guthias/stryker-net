@@ -1,13 +1,12 @@
-﻿namespace Stryker.Core.Mutants
+namespace Stryker.Core.Mutants;
+
+public enum MutantStatus
 {
-    public enum MutantStatus
-    {
-        Pending,
-        Killed,
-        Survived,
-        Timeout,
-        CompileError,
-        Ignored,
-        NoCoverage
-    }
+    Pending,
+    Killed,
+    Survived,
+    Timeout,
+    CompileError,
+    Ignored,
+    NoCoverage
 }
