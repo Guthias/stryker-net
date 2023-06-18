@@ -25,12 +25,12 @@ public class BaselineMutantHelperTests : TestBase
             {
                 Start = new Position
                 {
-                    Column = 17,
+                    Column = 13,
                     Line = 16
                 },
                 End = new Position
                 {
-                    Column = 62,
+                    Column = 58,
                     Line = 16
                 }
             }
@@ -61,7 +61,7 @@ public class BaselineMutantHelperTests : TestBase
             {
                 Start = new Position
                 {
-                    Column = 13,
+                    Column = 9,
                     Line = 23
                 },
                 End = new Position
@@ -99,12 +99,12 @@ public class BaselineMutantHelperTests : TestBase
             {
                 Start = new Position
                 {
-                    Column = 30,
+                    Column = 26,
                     Line = 32
                 },
                 End = new Position
                 {
-                    Column = 34,
+                    Column = 30,
                     Line = 32
                 }
             }

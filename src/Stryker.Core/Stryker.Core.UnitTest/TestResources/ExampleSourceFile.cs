@@ -1,6 +1,6 @@
 using System;
 
-namespace ExampleProject;
+namespace ExampleProject
 
 public class Recursive
 {
